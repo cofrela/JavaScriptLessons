@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    Прогноз погоды на какой-день Вас интересует:<br><br>
+    <form name="forma5">
+        <select name="day" size="7">
+           <option selected value="mon">понедельник</option>
+           <option value="tue">вторник</option>
+           <option value="wen">среда
+           <option value="thu">четверг
+           <option value="fri">пятница
+           <option value="sat">суббота
+           <option value="san">воскресенье         
+        </select>
+        <input type="button" value="OK" onclick="Vday(forma5);">
+        <br><br>
+        <textarea cols="35" rows="5" wrap="virtual" name="res"></textarea>
+    </form>
+</body>
+</html>
