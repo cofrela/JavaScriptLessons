@@ -1,0 +1,4 @@
+
+function startMessage() {
+ alert("Начинайте!");
+}
